@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1169.0",
+    "aws-xray-sdk": "^3.3.6",
+    "lambda-request-handler": "^0.5.1-alpha1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19",
+    "telegraf": "^4.8.5",
+    "telegraf-aws": "^1.0.0",
+    "telegraf-session-dynamodb": "^1.3.0",
+    "telegram-bot-api": "^2.0.1"
+  }
+}
